@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>What's Your Grade with a if-else construct</title>
+</head>
+
+<body>
+   <script type="text/javascript">
+//Input score, output the grade
+var score = prompt("What's your score?");
+var grade;
+if (score <0) grade="Not a possible score";
+else if(score <60) grade="an F";
+else if(score<70)   grade="an D";
+else if(score<80)   grade="an  C";
+else if(score<90)   grade="an  B";
+else if(score<100)  grade="an  A";
+else                grade="Not a possible score";
+
+document.write("<p>.Your grade is " + grade +".</p>");
+</script>
+</body>
+<html/>
